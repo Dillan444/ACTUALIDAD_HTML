@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    width:  100%;
+    height: 68px;
+    background: black;
+}
+
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.logo-title{
+    display: flex;
+}
+
+.logo-title img{
+    width: 48px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-title h4{
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#menu{
+    width: 30px;
+    height: 31px;
+}
+
+.icon-menu{
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  color: white;
+  font-size: 28px;
+}
+
+.icon-menu:hover{
+  cursor: pointer;
+}
+
+/*Portada*/
+
+
+.container-portada{
+    width: 100%;
+    height: 400px;
+    background-image: url(file:///C:/Users/LAPCRA/Documents/GitHub/ACTUALIDAD_HTML/Imagen/F_cultura.png);
+    background-size: 200%;
+    animation: movimiento 50s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes movimiento {
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+.capa-gradient{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*background: -webkit-linear-gradient(left, green, blue);
+  opacity: .5;*/
+}
+
+.container-details{
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+.details{
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: white;
+}
+
+.details h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.details p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.details button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.details button:hover{
+  background: white;
+  color: black;
+}
+
+
+
+/*Articulo*/
+
+main{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+article{
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+article h1{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+article hr{
+  max-width: 500px;
+  height: 4px;
+  border-style: none;
+  background: -webkit-linear-gradient(left, red, #0720f5);
+  opacity: 0.5;
+}
+
+article p{
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+@media screen and (max-width: 500px){
+  .details p{
+      font-size: 18px;
+  }
+
+  article p{
+      font-size: 18px;
+  }
+}
