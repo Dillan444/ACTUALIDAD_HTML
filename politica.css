@@ -59,7 +59,7 @@ header{
 .container-portada{
     width: 100%;
     height: 400px;
-    background-image: url(file:///C:/Users/LAPCRA/Documents/GitHub/ACTUALIDAD_HTML/Imagen/F_cultura.png);
+    background-image: url(./Imagen/F_politica.png);
     background-size: 200%;
     animation: movimiento 50s infinite linear alternate;
     position: relative;
