@@ -162,16 +162,32 @@ header{
   border-radius: 15px;
 }
 */
+/*FINDO DE PANTALLA DE INICO*/
 
+.container-fondo{
+  background: linear-gradient(#000, #000046);
+  margin-bottom: 20px;
+}
+
+.container-fondo div {
+  width: 85%;
+  margin: auto;
+}
+
+.container-fondo div img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 /* Contenido*/
 
-section{
+.container-az-info{
     width: 98%;
     float: left;
     margin: auto;
 }
-article{
+.container-az-info article{
     position: relative;
     margin-top: 20px;
     margin: 40px;
@@ -180,15 +196,16 @@ article{
     display: inline-block;
     font-family: Cambria;
     background: white;
+    transition: 300ms;
 }
 
-article img{
+.container-az-info article img{
    width: 420px;
    display: block;
    margin: 20px auto;
 }
 
-article img{
+.container-az-info article img{
     padding: none;
     width: 90%;
     height: 60%
@@ -197,23 +214,23 @@ article img{
     transition: 300ms;
 }
 
-article img:hover{
+.container-az-info article img:hover{
   width: 85%;
   border-radius: 10px;
 }
-section .info p{
+.container-az-info .info p{
     width: 90%;
     margin: auto;
     text-align: justify;
     color: black;
 }
 
-section .info:hover{
+.container-az-info .info:hover{
   text-decoration: underline;
   color: black;
 }
 
-article footer{
+.container-az-info article footer{
   width: 90%;
     text-align: right;
     margin: auto;
